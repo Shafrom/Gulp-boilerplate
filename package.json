@@ -1,7 +1,6 @@
 {
   "name": "TEST_NEW_2020",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "del": "^5.1.0",
@@ -49,5 +48,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shafrom/Gulp-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shafrom/Gulp-template/issues"
+  },
+  "homepage": "https://github.com/Shafrom/Gulp-template#readme",
+  "description": ""
 }
