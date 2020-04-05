@@ -8,23 +8,15 @@ const autoprefixer = require('gulp-autoprefixer')
 const gulpStylelint = require('gulp-stylelint')
 
 module.exports = function styles() {
-  return gulp.src('src/styles/*.styl')
+  return gulp.src('src/styles/style.styl')
     .pipe(plumber())
-    .pipe(gulpStylelint({
-     failAfterError: false,
-     reporters: [
-        {
-          formatter: 'string',
-         console: true
-        }
-      ]
-    }))
     .pipe(sourcemaps.init())
-    .pipe(stylus())
+    .pipe(stylus({
+      'include css': true
+    }))
     .pipe(autoprefixer({
       cascade: false
     }))
-    .pipe(shorthand())
     .pipe(cleanCSS({
       debug: true,
       compatibility: '*'
