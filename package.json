@@ -1,7 +1,7 @@
 {
-  "name": "TEST_NEW_2020",
+  "name": "Gulp-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "dependencies": {
     "del": "^5.1.0",
     "gulp-autoprefixer": "^7.0.1",
