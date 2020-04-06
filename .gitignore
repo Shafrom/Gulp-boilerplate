@@ -13,5 +13,5 @@ node_modules/
 local_modules
 
 # Папка с собранными файлами проекта
-# build/
+build/
 
